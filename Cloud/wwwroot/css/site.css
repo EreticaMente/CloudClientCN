@@ -9,14 +9,21 @@ h1:focus {
 }
 
 a, .btn-link {
-    color: #0071c1;
+    color: #00ff00;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+    color: #00ff00;
+    background-color: #001100;
+    border-color: #001100;
 }
+
+.btn-primary:hover {
+    color: #001100;
+    background-color: #00ff00;
+    border-color: #00ff00;
+}
+
 
 .content {
     padding-top: 1.1rem;
